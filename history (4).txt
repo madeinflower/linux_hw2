@@ -4,7 +4,10 @@
    3 date >> 1.txt
    4 mkdir -p /opt/task
    5 touch /opt/task/start.txt
-   6 cp /home/user/start/1.txt /opt/task
-   7 df -h
-   8 df -h >> start.txt
-   9 history > history.txt
+   6 cp /home/user/start/1.txt /opt/task/start.txt
+   7 ls -a /
+   8 ls -a / | tail -4
+   9 10 ls -a / | tail -4 >> /opt/task/start.txt
+   10 ls
+   11 history > history.txt
+
